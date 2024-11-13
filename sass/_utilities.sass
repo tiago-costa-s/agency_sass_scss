@@ -26,6 +26,18 @@
     margin-top: 2rem
     text-align: center
 
+%center_bg
+    background-size: cover
+    background-position: center
+
+%card_hover
+    .job_card_title, .job_card_cover, .job_card_description
+        opacity:0
+
+    &:hover
+        .job_card_title, .job_card_cover, .job_card_description
+            opacity: 1
+
 // BTNS
 .btn
     padding: .6rem 1rem
